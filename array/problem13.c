@@ -10,6 +10,7 @@ int main(){
     for(i=0;i<n;i++){
         total=total+marks[i];
     }
+    
     avg=total/n;
     for(i=0;i<n;i++){
         if(marks[i]>avg){
