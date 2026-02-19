@@ -7,7 +7,6 @@ int main(){
         scanf("%d",&price[i]);
     }
     int min=100000;
-
     for(i=0;i<n;i++){
 
         if(price[i]>0){
