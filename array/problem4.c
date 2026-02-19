@@ -5,7 +5,6 @@ int main(){
     int arr[n];
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
-       
     }
     int left =0;
     int right=n-1;
@@ -20,6 +19,4 @@ int main(){
         printf("%d",arr[i]);
     }
     return 0;
-    
-
 }
