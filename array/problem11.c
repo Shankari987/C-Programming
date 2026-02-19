@@ -15,7 +15,6 @@ int main() {
     }
 
     int left = 0;
-
     for(i = 0; i < n; i++) {
         int right = total - left - arr[i];
 
