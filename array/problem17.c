@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+    int i,n;
+    scanf("%d",&n);
+    int arr[n];
+    for(i=0;i<n;i++){
+        scanf("%d",&arr[i]);
+    }
+    for(i=0;i<n;i++){
+        if(arr[0]==arr[n-1]){
+            printf("Yes");
+            return 0;
+        }
+    }
+    printf("No");
+}
