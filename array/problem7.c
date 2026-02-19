@@ -12,6 +12,7 @@ int main(){
             odd++;
         }
 }
+    
 printf("Even:%d\n",even);
 printf("Odd :%d",odd);
 }
