@@ -13,5 +13,4 @@ int main(){
     expected=n*(n+1)/2;
     missing=expected-sum;
     printf("%d",missing);
-
 }
