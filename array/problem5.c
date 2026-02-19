@@ -8,7 +8,6 @@ int main(){
     }
      for(i=1;i<n;i++){
         sum=sum+arr[i];
-
     }
     expected=n*(n+1)/2;
     missing=expected-sum;
