@@ -18,7 +18,6 @@ int main(){
         if(currentstreak>maxstreak){
         maxstreak=currentstreak;
     }
-
     }
     printf("%d",maxstreak);
 
