@@ -8,6 +8,7 @@ int main(){
     else if(n<0){
         printf("%d is a negative number",n);
     }
+        
     else{
         printf("The number is zero");
     }
