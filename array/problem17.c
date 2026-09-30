@@ -6,6 +6,7 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+
     for(i=0;i<n;i++){
         if(arr[0]==arr[n-1]){
             printf("Yes");
